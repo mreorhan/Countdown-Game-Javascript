@@ -4,6 +4,8 @@ Sayı Bulma Oyunu
 
 Sayı bulma oyununda 5 harf ve 1 tane de 2 haneli 10'un katları sayı bulunmaktadır. Oyunun amacı en kısa sürede hedeflenen sayıyı bulmaktır.
 
+EN: Finding number game has 5 letters and 1 double number of 10 digits in 2 digits. The aim of the game is to find the target number as soon as possible.
+
 ---
 [Demoyu Görüntüle](https://mreorhan.github.io/Coutdown-Game/ "Demoyu Görüntüle")
 
