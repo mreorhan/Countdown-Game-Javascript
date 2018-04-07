@@ -1,0 +1,40 @@
+body {
+    background-color: #f0f0f0!important;
+    font: 14px Segoe UI, sans-serif;
+    text-align: center;
+ }
+#form {
+    max-width: 500px;
+    padding: 10px;
+    margin: auto;
+    border: 0.062em solid #d1d1d1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: left;
+ }
+
+#form div {
+    margin:0.5em 0;
+	width: 100%;
+ }
+#container{margin-top:calc(50vh - 188px)}
+div{
+    text-align: center;
+ }
+
+#form span {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    padding-right: 10px;
+ }
+
+.numbers input,#hedef {
+       width: 15%!important;
+ }
+#form input {
+    text-align: center;
+ }
+ h2{
+ text-align:center!important
+ }

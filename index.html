@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+      <title>MREORHAN</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   </head>
+   <body>
+      <div id="container">
+         <form id="form" class="form-inline">
+		 <h2>Sayı Bulma Oyunu</h2>
+            <div class="numbers">
+               <input type="text" class="form-control">
+               <input type="text" class="form-control">
+               <input type="text" class="form-control">
+               <input type="text" class="form-control">
+               <input type="text" class="form-control">
+               <input type="text" class="form-control" id="sonSayi">
+            </div>
+            <div>
+               <div class="row">
+                  <span>Hesaplanacak Sayı:</span>
+                  <input type="text" id="hedef" class="form-control">
+               </div>
+               <div class="row">
+                  <span>Bulunan Sayı:</span>
+                  <span id="bulunanSayi"></span>
+               </div>
+               <div class="row">
+                  <span>Sonuç:</span>
+                  <span id="txtSonuc"></span>
+               </div>
+               <div class="row">
+                  <span>Yapılan İşlemler</span>
+                  <span id="islemler"></span>
+               </div>
+			   <div class="row">
+			   <div class="row justify-content-md-center">
+               <div class="col col-lg-3"><input type="button" id="RastgeleUret" class="btn btn-warning" value="Rastgele Ata"></div>
+               <div class="col col-lg-3"><input type="button" id="Hesapla" class="btn btn-primary" value="Hesapla"></div>
+			   </div>
+			   </div>
+            </div>
+         </form>
+      </div>
+      <script src="scripts/mreorhan.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   </body>
+</html>
